@@ -132,18 +132,18 @@ Covariate selection was done by fitting models on a range of covariates and cond
 #### 3.1.2) Modelling Reduction in Mortality 
 The impact of each intervention category was modelled using a compound Poisson model. The severity component of the compound Poisson model captures the expected reduction in mortality, while the frequency component captures the expected level of uptake (i.e. expected number of proportion to participate after applying a 50% uplift from incentives pertaining to increased participation in multiple activities per intervention categories).  
 
+<h3 align="center">
 <img src= "Picture4.PNG" alt = "image">
+</h3>
 
 A gamma distribution was used to stochastically model the reduction in mortality for each category of intervention. The gamma distribution was selected due to its usefulness in modelling proportions, as well as its right-tailed nature to capture the fact that interventions are likely to highly effective up to a certain extent, before tapering off. The gamma distribution for each category was truncated at the assumed upper and lower bounds of mortality reduction.   
  
 #### 3.1.3) Modelling Uptake in Health-Promoting Activities 
 The expected uptake of the activities was modelled using a Poisson distribution, where 𝜆 represents the expected uptake per year adjusted by the expected frequency of participation. Using results reported in the British Healthiest Workplace 2019 Survey, a study seeking to understand the participation in different health initiatives, formed the basis of uptake assumptions. Since uptake figures were reported at an aggregate level in the report, an adjustment per age cohort was applied to stratify the uptake by age cohorts. For instance, policyholders aged 25-34 are assumed to be more likely to participate in Physical Wellbeing initiatives, whereas policyholders >65 are assumed to be more likely to participate in Preventive initiatives. The level of uptake was further adjusted by the expected frequency per year such that the expected time between each activity, (assuming 𝑇~𝐸𝑥𝑝(𝜆)), would be reasonable, based on the rewards system and scope of activities. This level of uptake was taken to be the value of 𝜆 in the Poisson model. 
  
-An example of a simulated mortality reduction is given in Figure 3 which depicts the simulated number of policyholders at a different levels of mortality reduction.   
+An example of a simulated mortality reduction is given in the image below which depicts the simulated number of policyholders at a different levels of mortality reduction.   
 
-<h3 align="center">
 <img src= "Picture5.png" alt = "image" align = "center">
-</h3>
 
 #### 3.1.4) Individual Policyholder Projection 
 Apex Consultants has used a stochastic approach to simulate the characteristics of each individual policyholder at the end of each period. The characteristics of each policyholder are defined using an 8-dimensional matrix consisting of the following information:  
