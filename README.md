@@ -26,7 +26,7 @@
 5.	[Risk Mitigation & Other Considerations](#Risk)  
     + [Risk Assessment & Mitigation](#Risk_Assessment)  
     + [Sensitivity Analysis](#Sensitivity_Analysis)  
-6.	[Data & Limitations](#Data_&_Limitations)
+6.	[Data & Limitations](#Data_and_Limitations)
 7.	[Final Recommendations](#Final_Recommendations)
 8.	[Bibliography](#Bibliography)
 9.	[Appendix](#Appendix)
