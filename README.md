@@ -31,16 +31,16 @@
 9.	[Appendix](#Appendix)
 
 
-## 1) Overview <a id="#Overview"></a>
+## 1) Overview {"#Overview"}
 
-#### 1.1) Executive Summary <a id="#Executive_Summary"></a>
+#### 1.1) Executive Summary {"#Executive_Summary"}
 
 A major Lumarian life insurer, SuperLife, has engaged Apex Consultants to develop a health incentive program that can be bundled with SuperLife’s longer-term life insurance offerings. In addition to promoting the overall health and wellbeing of its policyholders, SuperLife is also seeking to improve the profitability of its products through a reduction in expected mortality and improved product marketability. In light of these considerations, Apex Consultants proposes a Gamified Health Challenge app (“App”) which can be paired with SuperLife’s 20year term life insurance product. Through the App, policyholders are incentivised to increase and track their physical activity levels through the accumulation of ‘Health Points’ upon engaging with different health-promoting behaviours. In evaluating the merits of this proposal, this report leverages the Actuarial Control Cycle as a framework through which to iteratively design, test and monitor the effectiveness of the proposed App. As such, this report discusses the program design, modelling assumptions and outputs, and key metrics for future monitoring.  
 
-#### 1.2) Program Objectives <a id="#Program_Objectives"></a>
+#### 1.2) Program Objectives {"#Program_Objectives"}
 While this report focuses on pairing the App with the 20-year term insurance product, it is designed to be scalable for potential expansion to include pairing with the Single Premium Whole Life product once it has proven effective in the following facets: satisfactory reduction in mortality, sufficient return on investment, and meeting additional objectives as defined in Section 1.3 below.      
 
-#### 1.3) Program Metrics <a id="#Program_Metrics"></a>
+#### 1.3) Program Metrics {"#Program_Metrics"}
 The effectiveness of the Program should be assessed through the different metrics that are broken down by demographic segments (i.e. age cohort, sex, Lumaria region, and face amount). In understanding how the following metrics vary across different segments, SuperLife can derive insights into the program’s impact and accordingly adjust strategies to optimise effectiveness and reach. Apex Consultants proposes the following metrics:  
 
 > ##### a) Short-Medium Term 
@@ -52,15 +52,15 @@ The effectiveness of the Program should be assessed through the different metric
 >  - Long-term reduction in mortality rate: the success of the program is ultimately underpinned by the extent to which the mortality rate reduces. SuperLife should compare mortality trends between policyholders who regularly engage with the App, policyholders who engage with the App intermittently, and non-participants.  
 >  - Decrease in lapse rate: if the App is successful in fostering a sense of community amongst policyholders who also perceive the program’s positive impact on their wellbeing, there should be a decrease in lapse rates.    
 
-## 2) Program Design <a id="#Program_Design"></a>
-#### 2.1) Gamified Health Points System <a id="#Gamified_Health_Points_System"></a>
+## 2) Program Design {"#Program_Design"}
+#### 2.1) Gamified Health Points System {"#Gamified_Health_Points_System"}
 Apex Consultants recommends the adoption of a Gamified Health Challenge app (“App”) to incentivise healthier lifestyles. Through the App, policyholders can earn virtual ‘Health Points’ by engaging in health-promoting activities in the following categories: Physical Health, Mindfulness & Emotional Wellbeing, Lifestyle & Community, and Prevention. A comprehensive list of specific health initiatives within each category is shown in Appendix A.2. These Health Points allow policyholders to compete against each other and can also be used to unlock various rewards, with a higher point accumulation leading to better rewards (see Appendix A.6 and A.7 for more details on Health Points system and rewards respectively).  
 
 The above figrues depicts a prototype of the App which allows policyholders to monitor their healthpromoting behaviours and track their accumulation of Health Points. Through the App, SuperLife can also continually update their data about each policyholder’s underwriting risk through real-time data collection.  
  
 To incentivise specific behaviours by different age cohorts, Health Points allocations should be adjusted depending on the age cohort. For instance, Safety Campaigns, which are designed to educate policyholders on safety measures at home and in daily activities, are likely to be more effective for retired policyholders (aged >65 years old) who often spend more time at home. As such, this age cohort will be awarded more points for engaging in Safety Campaigns compared to a younger policyholder. In this way, SuperLife can maximise the cost effectiveness of each health incentive by ensuring that it is aligned to the unique needs of each age cohort. 
 
-#### 2.2) Justification <a id="#Justification"></a>
+#### 2.2) Justification {"#Justification"}
 Each category of health-promoting behaviours (as listed in Section 2.1) is designed to address one of the leading causes of mortality within SuperLife’s policyholder population. Within each category, the specific health-promoting activities have either been included due to their costeffectiveness in reducing mortality and / or its alignment with specific policyholder features.  The causes of death were approximately uniform across different face amounts. As such, Apex consultants did not tailor intervention strategies to specific face amounts, instead focusing on mortality trends across the whole portfolio.  
 
 #### 2.2.1) Selecting Categories
@@ -73,10 +73,10 @@ Additionally, the categories ‘Community & Lifestyle’ and ‘Mindfulness & Em
 #### 2.2.2) Selecting Specific Health-Promoting Activities 
 Within each specific category, health-promoting activities from the list of interventions supplied by SuperLife’s product development team were included due to their cost-effectiveness in reducing mortality per Crown. The cost and expected reduction in mortality were assumed to vary linearly between the lower and upper bounds. See Appendix A.3 for further details. Additionally, in recognising that T20 policyholders tend have an average age of 50.9 (slightly younger than the average of 54 across SuperLife’s portfolio), there are activities that are targeted at policyholders in the 40-50 age cohort. For instance, external causes of mortality (i.e. accidents or transport-related injuries) are the third leading cause of death for T20 policyholders. Accordingly, Safety Campaigns and Travel Safety Tips have been included.  
 
-#### 2.3) Expected Program Uptake <a id="#Expected_Program_Uptake"></a>
+#### 2.3) Expected Program Uptake {"#Expected_Program_Uptake"}
 The App adopts a holistic approach to wellbeing and gamifies the experience by allowing policyholders to accumulate Health Points upon successfully completing various healthpromoting activities. In acknowledging the diversity of the policyholders, who vary by gender, age and region, the App provides them with the flexibility to choose from a range of activities that align with their needs. In addition to incentivising sustainable long-term engagement by offering a wide variety of activities, the gamified aspect of the App also fosters a sense of community by promoting healthy competition among policyholders through features such as daily and weekly leaderboards (see Figure 1 above). Participation is also further incentivised through the rewards system, wherein policyholders can redeem their Health Points in exchange for different rewards. This incentive-based approach is supported by external literature which suggests that incentives are effective in motivating physical activity (Farooqui, 2014).
 
-#### 2.4) Impact of Health Initiatives <a id="#Impact_of_health_initiatives"></a>
+#### 2.4) Impact of Health Initiatives {"#Impact_of_health_initiatives"}
 The impact of the interventions was simulated using a compound Poisson distribution to stochastically capture the expected uptake and reduction in mortality. The methodology is further explained in Section 3. Our results demonstrate that policyholders in all age cohorts will have at least one category in which a majority is expected to participate (see tables below).   
  
 #### Reduction in Mortality (by Category and Pecentile)
@@ -98,19 +98,19 @@ The impact of the interventions was simulated using a compound Poisson distribut
 | Physical | 59% | 	47% |	24% | 	12% |
 
  
-#### 2.5) Implementation Timeline  <a id="#Implementation_Timeline"></a>
+#### 2.5) Implementation Timeline  {"#Implementation_Timeline"}
 Given the complexity of the App, Apex Consultants proposes a phased pilot implementation approach (outlined in Figure 2). During the initial phase (up to 6 months), SuperLife should offer the App to a pilot group of policyholders, with only subset of all possible health initiatives. After testing and refining the App with the pilot group, SuperLife should gradually increase the number of policyholders who can download the app, before expanding the number of health initiatives available to policyholders. 
   
 In the initial ‘Pilot group implementation’, SuperLife should offer the App to policyholders who are categorised as ‘moderate risk’ since this cohort disproportionately accounts for 40.9% of death claims, despite only accounting for 23.8% of in-force policies. Further investigation also reveals that this cohort has a slight skew towards younger age groups where digital adoption capabilities are typically stronger.  
 
-#### 2.6) Monitoring Outcomes <a id="#Implementation_Timeline"></a>
+#### 2.6) Monitoring Outcomes {"#Implementation_Timeline"}
 SuperLife should monitor outcomes, through the following metrics:  
   - In the __short-term (<2 years)__, SuperLife should assess metrics such as App adoption and utilisation rates. During the first few years of implementation, SuperLife should focus on ensuring the logistical and operational efficiency of the App by monitoring outcomes to validate assumptions and respond to any implementation challenges.  
   - In the __medium term (5-10 years)__, SuperLife should focus on measuring improvements in key health indicators, including a reduction in chronic disease prevalence (particularly respiratory illnesses and cancers). This timeframe is informed by longitudinal studies which have concluded that individuals should maintain a healthier lifestyle over a minimum of 6 years to experience a significant reduction in chronic diseases such as cardiovascular disease (Ding, 2021).  
   - Over the __long-term (>15 years)__, SuperLife should determine the reduction in mortality rates and the consistency of policyholder engagement with the App. This long-term horizon acknowledges that the adoption of healthier lifestyles, and the subsequent reduction in mortality rates, is a gradual process.
 
-## 3) Pricing and Costs <a id="#Pricing_and_Costs"></a>
-#### 3.1) Methodology  <a id="#Methodology"></a>
+## 3) Pricing and Costs {"#Pricing_and_Costs"}
+#### 3.1) Methodology  {"#Methodology"}
 Mortality savings was calculated by projecting revised mortality rates for each individual policyholder using stochastic methods, and considering investment returns, net premium reserves and various expenses. Further details are provided in Appendix C.  
  	 
 #### 3.1.1) Mortality Projection  
@@ -161,7 +161,7 @@ The premium was calculated by calculating the gross premium reserve (excl. Commi
 #### 3.1.7) Mortality Savings and Future Economic Value 
 Mortality savings was calculated by determining the expected value of savings arising from a reduction in death claims in respect to costs after inflation due to implementing the App. These expected savings are noted as a nominal rate, reflective of the year-on-year mortality cost reduction. To determine projected future economic value, a baseline model has been developed applying steady state assumptions over a 20 year period and provides a comparable point estimate of portfolio profit. However, in the future projection has treated the initiative stochastically for frequency of uptake, mortality reduction, costs and inflation. Consequently, this provide a reasonable view on proportional baseline impact of the initiative and prevent masking by confounding effects based on the model specification in the baseline. 
 
-## 3.2) Results <a id="#Results"></a>
+## 3.2) Results {"#Results"}
 
 #### 3.2.1) Reduction in Number of Deaths 
 Figure 4 compares the  	baseline number of deaths (using baseline mortality assumptions)  	with the revised number of deaths (assuming that the App had been implemented over the last 20 years 	). There is a widening gap between historical and adjusted number of deaths over time, as the  initiative becomes increasingly effective given that the  impacts of mortality reduction are cumulative 	 and more policies in force. On average, there is a reduction in 156 deaths per year, amounting to a decrease of approximately 3000 deaths over the 20-year period.  
@@ -171,22 +171,22 @@ Figure 5 pertains to the historical mortality savings under the steady-state smo
  
 #### 3.3) Potential Pricing Changes 
 It is difficult to assess how pricing changes will affect the competitiveness of SuperLife’s product in Lumaria given the lack of data regarding competitors. SuperLife should maintain the current pricing structure and consider offering discounts in the longer term if mortality rates reduce sufficiently. This analysis assumed a steady state of intervention utilisation, however, we expect this to vary over duration of implementation, as SuperLife develops a network economy. Specifically, as noted in section 2.1.3, we note that the initiative will deliver high initial costs, to develop the app infrastructure and market accordingly. We recommend SuperLife to continue with a more conservative pricing view in the medium to short term, using equity and reserves for research and development. However, we recommend SuperLife to monitor mortality trends, uptake levels and broader industry trends to assume a competitive position. Further, internally we recommend SuperLife to continue monitoring to appropriate offer discounts where relevant, with the initiative a flexible alternative to pure reversionary bonuses.                                                                                      
-## 4) Assumptions <a id="#Assumptions"></a>
-#### 4.1) Economic Assumptions <a id="#Economic_Assumptions"></a>
+## 4) Assumptions {"#Assumptions"}
+#### 4.1) Economic Assumptions {"#Economic_Assumptions"}
 The investment and interest rates were forecasted using historical rates from 1982 onwards. The sharp decline in interest rates, and subsequent stability in inflation after 1982, suggests that Lumaria adopted inflation targeting from 1982 onwards (see Appendix C.1.2). Both rates were forecasted using a random walk approach over 10,000 simulations. The random walk assumes normally distributed increments based on historical data mean and standard deviation, and is bounded by the observed historical values. For each future period, the 10th percentile, average, and 90th percentile values were used.  
  
-#### 4.2) Mortality Assumptions <a id="#Mortality_Assumptions"></a>
+#### 4.2) Mortality Assumptions {"#Mortality_Assumptions"}
 The Lumaria life tables were assumed to be an accurate source for projecting future mortality. The in-force policy dataset was not taken as a source for future mortality projections, as this would involve the influence of year-related trends present in the captured period. Since the life tables did not differentiate between males and females, or between non-smokers and smokers, a life table incorporating these distinctions was manually created. This life table assumes that the sex ratio at birth is 1:1. It also assumes a smoking rate of 18%, and that only people over 18 are smokers. To create this table, an assumption was made that hazard rates amongst the different groups were proportional, using female and non-smokers as the baseline, taken from the in-force data. 
 
 |Group 	|	Female | 		Male |	Non-Smoker | Smoker | 
 |--------|----------|-----------|---------------|------|
 |Ratio 	|1.00 | 		1.27 | 		1 	| 8.72 |
 
-#### 4.3) Intervention Assumptions <a id="#Intervention Assumptions"></a>
+#### 4.3) Intervention Assumptions {"#Intervention Assumptions"}
 The intervention uptake rates were assumed to reflect similar programs in real life based on the British Healthiest Workplace 2019 Survey. However, cultural, and environmental differences are unknown and could affect the uptake rates drastically. Thus, a more conservative estimation was used where, the incentive of points was not considered to increment the uptake rate despite, evidence that incentives significantly increase uptake rates.  
 
-## 5) Risk and Risk Mitigation Considerations  <a id="#Risk_and_Risk_Mitigation_Considerations"></a>
-#### 5.1) Risk Assessment <a id="#Risk Assessment"></a>
+## 5) Risk and Risk Mitigation Considerations  {"#Risk_and_Risk_Mitigation_Considerations"}
+#### 5.1) Risk Assessment {"#Risk Assessment"}
 The most significant risks are displayed in the risk matrix in Figure 7. A description of each risk is as follows:  
 1. Data security breach:  given that the app is collecting highly sensitive information, a data breach could result in financial losses  through fines and lawsuits, as well as reputational damage.
 2. System failure: technical glitches or a confusing user interface could frustrate policyholders and even deter them from engaging.
@@ -196,7 +196,7 @@ unsustainable reward structures.
 5. Trend risk: unforeseen changes in future health trends, such as new diseases, may affect SuperLife’s ability to effectively create health initiatives that target or prevent these diseases.
 6. Regulatory change: unforeseen shifts in regulatory requirements, such as prohibiting the collection of personal health-related data, could disrupt the operations of the App.  
 
-#### 5.2) Mitigation Strategies <a id="#Mitigation_Strategies"></a>
+#### 5.2) Mitigation Strategies {"#Mitigation_Strategies"}
 |# |	Risk | 	Type |	Mitigation| 
 |--|---------|-------|------------|
 | 1 | 	Data security breach  |	Both |	Investing in data security measures such as encryption protocols, access controls and regular audits should reduce vulnerabilities in the data security. SuperLife should gradually upgrade as the data security system as the number of users increases over time. | 
@@ -206,7 +206,7 @@ unsustainable reward structures.
 | 5 | Trend risk | 	Qualitative |	The App has been intentionally designed with scalability and agility so that SuperLife can easily add or remove specify health initiatives as needed. SuperLife should monitor health trends and emerging diseases to inform its decisions regarding whether and when to modify specific health initiatives. |
 | 6	| Regulatory change |  	Qualitative | If regulatory changes transpired, SuperLife should collect anonymised data on an aggregated level.  |
 
-#### 5.3) Sensitivity Analysis (Refer to Appendix D) <a id="#Sensitivity_Analysis"></a>
+#### 5.3) Sensitivity Analysis (Refer to Appendix D) {"#Sensitivity_Analysis"}
 |Assumption | 	Range |	Commentary |
 |-----------|---------|------------|
 |3.5% | inflation |	≤6% | Inflation increases program costs over time.| 
@@ -216,7 +216,7 @@ unsustainable reward structures.
 
 Using assumptions detailed in Section 3 and 4, we believe that the program will provide a profitable impact to SuperLife at a 70% in the immediate term to 80% confidence level in the long term. This has been determined based on the degree of uncertainty bands surrounding the simulated future mortality, historical mortality projections and program costs future variability. 
 
-## 6) Data and Limitations <a id="#Data_and_Limitations"></a>
+## 6) Data and Limitations {"#Data_and_Limitations"}
 |Data Requirement |Data Sources | 	Data Limitations | 
 |-----------------|-------------|--------------------|
 | Mortality rate | 	Lumaria life table (Lumaria govt) | 	Life table provides mortality by age only and does not provide mortality rates by sex or smoking status. |
@@ -228,10 +228,10 @@ Using assumptions detailed in Section 3 and 4, we believe that the program will 
 #### 6.2) Covid-19 Considerations  
 There was a 50% increase in mortality during the Covid periods in 2020-2023 (see Appendix D.1). In projecting the mortality rates, these anomalous rates were removed from the historical data to allow us to model the historical baseline, and an explicit uplift was made during 20202023 periods. However, future economic projections assumed steady state with historical preCovid experience was applied. Despite this, our view is that Covid uplift is a black-swan event independent to the intervention, designed to reduce general mortality and no confounding effect was applied. SuperLife should vigilantly monitor the impacts of Covid-19 on mortality for their policyholders and the broader Lumaria population and adjust life tables and mortality assumptions accordingly. Future adjustments should not impact the methodology described above, only the parameters and / or assumptions.  
  
-## 7) Final Recommendations <a id="#Final_Recommendations"></a> 
+## 7) Final Recommendations {"#Final_Recommendations"} 
 The proposed gamified program adopts a holistic approach to health and wellbeing and offers SuperLife’s policyholders the ability to choose what health-promoting activities to engage with. In addition to being informed by medical research, the quantitative modelling also reaffirms the projected success of the program from a mortality reduction and savings perspective. As the program is designed to be gradually scaled via a phased pilot implementation approach, SuperLife should monitor the outcomes and expand the program if it proves to be successful against the metrics outlined in Section 1.3.    
 
-## 8) Bibliography <a id="#Bibliography"></a>
+## 8) Bibliography {"#Bibliography"}
  
 Ambrosino N, Bertella E. Lifestyle interventions in prevention and comprehensive management of COPD. Breathe (Sheff). 2018 Sep;14(3):186-194. doi: 
 10.1183/20734735.018618. PMID: 30186516; PMCID: PMC6118879. 
