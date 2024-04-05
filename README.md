@@ -44,12 +44,12 @@ While this report focuses on pairing the App with the 20-year term insurance pro
 #### 1.3) Program Metrics <a id="Program_Metrics"></a>
 The effectiveness of the Program should be assessed through the different metrics that are broken down by demographic segments (i.e. age cohort, sex, Lumaria region, and face amount). In understanding how the following metrics vary across different segments, SuperLife can derive insights into the program’s impact and accordingly adjust strategies to optimise effectiveness and reach. Apex Consultants proposes the following metrics:  
 
-> ##### a) Short-Medium Term 
+> #### a) Short-Medium Term 
 >  - App adoption rate: a high adoption rate indicates strong interest in the program.
 >  - Average Health Point accumulation per user: given that policyholders accumulate points when they complete health-promoting activities through the app, this metric is an indicator of user engagement and provides insights into the extent of active utilisation.
 >  - Increase in sales of 20-year term insurance product: increased product differentiation with other life insurers should drive sustainable sales growth in a competitive market.  
 
-> ##### b) Long Term  
+> #### b) Long Term  
 >  - Long-term reduction in mortality rate: the success of the program is ultimately underpinned by the extent to which the mortality rate reduces. SuperLife should compare mortality trends between policyholders who regularly engage with the App, policyholders who engage with the App intermittently, and non-participants.  
 >  - Decrease in lapse rate: if the App is successful in fostering a sense of community amongst policyholders who also perceive the program’s positive impact on their wellbeing, there should be a decrease in lapse rates.    
 
