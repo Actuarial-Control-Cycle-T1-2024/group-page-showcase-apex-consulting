@@ -122,7 +122,9 @@ Mortality savings was calculated by projecting revised mortality rates for each 
 #### 3.1.1) Mortality Projection  
 To model historical mortality rates, the in-force policyholder dataset was fitted with the semiparametric Cox Proportional Hazards model, which assumes a baseline mortality curve adjusted that is proportionally based on covariate values. The hazard rate is as follows:  
 
-<img src= "Picture3.PNG" alt = "image" align = "center">
+<p align="center">
+<img src= "Picture3.PNG">
+</p>
 
 Covariate selection was done by fitting models on a range of covariates and conducting statistical tests. Some covariates excluded due to insufficient data. The ‘sex’ and ‘smoking status’ of policyholders were the chosen covariates, with 𝛽 = 1.25 and 𝛽 = 8.72 respectively. Both the individual covariates are considered statistically significant; the fitted Cox model passes the likelihood ratio, Wald and log-rank tests (see Appendix C.1.1 for further details). 
  
