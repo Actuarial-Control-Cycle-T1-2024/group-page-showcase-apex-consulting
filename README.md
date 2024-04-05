@@ -1,10 +1,35 @@
-[![Code and Calculations](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-apex-consulting/blob/main/Screenshot%202024-04-05%20140531.png)](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-apex-consulting/tree/main/ACTL4001%20Files)
+<img src = "https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-apex-consulting/blob/main/Screenshot%202024-04-05%20144120.png" width="48" height= "48">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src= "https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-apex-consulting/blob/main/Screenshot%202024-04-05%20140531.png" width="200" height="48">](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-apex-consulting/tree/main/ACTL4001%20Files) 
 
-# Actuarial Theory and Practice A @ UNSW
+# Health Incentives: Reduction in Mortality
+##### Prepared by: Apex Consultants<br><br> Grace Lam, Nathan Tang, Magdalene Che, Samuel Lam and Tobby McCann
 
-_"Tell me and I forget. Teach me and I remember. Involve me and I learn" - Benjamin Franklin_
-
+<font size="1"> For all R code please click the 'Code and Calculations' Image</font>
 ---
+
+### Table of Contents
+1. Overview
+    + Executive Summary
+    + Program Objectives
+    + Program Metrics 
+2. Program Design  
+    + Gamified Health Points System 
+    + Justification 
+    + Expected Program Uptake
+    + Impact of Health Incentives  
+    + Implementation Timeline 
+    + Monitoring Outcomes  
+4.	Pricing and Costs  
+    + Methodology 
+    + Results  
+5.	Assumptions  
+6.	Risk Mitigation & Other Considerations  
+    + Risk Assessment & Mitigation  
+    + Sensitivity Analysis  
+7.	Data & Limitations  
+8.	Final Recommendations
+9.	Bibliography
+10.	Appendix 
+
 
 ### Congrats on completing the [2024 SOA Research Challenge](https://www.soa.org/research/opportunities/2024-student-research-case-study-challenge/)!
 
