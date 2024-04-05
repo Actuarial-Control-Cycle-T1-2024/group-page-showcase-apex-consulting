@@ -1,9 +1,9 @@
-# Apex Consulting: Superlife HEalth Interventions <img src = "Screenshot 2024-04-05 144120.png" alt = "image" width="100" height= "100" align = "right"> 
+# Apex Consulting: Superlife Health Interventions <img src = "Screenshot 2024-04-05 144120.png" alt = "image" width="100" height= "100" align = "right"> 
 
 ## Health Incentives: Reduction in Mortality [<img src= "Screenshot 2024-04-05 140531.png" alt = "image" align = "right">](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-apex-consulting/tree/main/ACTL4001%20Files) 
 
 ##### Prepared by: Apex Consultants<br><br> Grace Lam, Nathan Tang, Magdalene Che, Samuel Lam and Tobby McCann <br>
-<font size="2"> _For all R code please click the 'Code and Calculations' Image_ </font>
+<font size="2"> *For all R code please click the 'Code and Calculations' Image* </font>
 ---
 
 ### Table of Contents
@@ -197,6 +197,7 @@ unsustainable reward structures.
 6. Regulatory change: unforeseen shifts in regulatory requirements, such as prohibiting the collection of personal health-related data, could disrupt the operations of the App.  
 
 #### 5.2) Mitigation Strategies <a id="Mitigation_Strategies"></a>
+
 |# |	Risk | 	Type |	Mitigation| 
 |--|---------|-------|------------|
 | 1 | 	Data security breach  |	Both |	Investing in data security measures such as encryption protocols, access controls and regular audits should reduce vulnerabilities in the data security. SuperLife should gradually upgrade as the data security system as the number of users increases over time. | 
@@ -207,16 +208,17 @@ unsustainable reward structures.
 | 6	| Regulatory change |  	Qualitative | If regulatory changes transpired, SuperLife should collect anonymised data on an aggregated level.  |
 
 #### 5.3) Sensitivity Analysis (Refer to Appendix D) <a id="Sensitivity_Analysis"></a>
+
 |Assumption | 	Range |	Commentary |
 |-----------|---------|------------|
-|3.5% | inflation |	≤6% | Inflation increases program costs over time.| 
-|Inflation costs have not exceeded 8.6% since 1982 | 
+|3.5% inflation | ≤6% | Inflation increases program costs over time. Inflation costs have not exceeded 8.6% since 1982 | 
 |Č248/ year for a 35-yearold (baseline mortality) |	≥ Č181 | 	Premium costs should be sufficiently high to account for program expenses and death claim costs |
 | Initial expense of Č150 | ≤ Č1720 | 	Initial expenses detract from profitability of policies | 
 
 Using assumptions detailed in Section 3 and 4, we believe that the program will provide a profitable impact to SuperLife at a 70% in the immediate term to 80% confidence level in the long term. This has been determined based on the degree of uncertainty bands surrounding the simulated future mortality, historical mortality projections and program costs future variability. 
 
 ## 6) Data and Limitations <a id="Data_and_Limitations"></a>
+
 |Data Requirement |Data Sources | 	Data Limitations | 
 |-----------------|-------------|--------------------|
 | Mortality rate | 	Lumaria life table (Lumaria govt) | 	Life table provides mortality by age only and does not provide mortality rates by sex or smoking status. |
