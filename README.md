@@ -132,9 +132,7 @@ Covariate selection was done by fitting models on a range of covariates and cond
 #### 3.1.2) Modelling Reduction in Mortality 
 The impact of each intervention category was modelled using a compound Poisson model. The severity component of the compound Poisson model captures the expected reduction in mortality, while the frequency component captures the expected level of uptake (i.e. expected number of proportion to participate after applying a 50% uplift from incentives pertaining to increased participation in multiple activities per intervention categories).  
 
-<h3 align="center">
-<img src= "Picture4.PNG" alt = "image" align = "center">
-</h3>
+<img src= "Picture4.PNG" alt = "image">
 
 A gamma distribution was used to stochastically model the reduction in mortality for each category of intervention. The gamma distribution was selected due to its usefulness in modelling proportions, as well as its right-tailed nature to capture the fact that interventions are likely to highly effective up to a certain extent, before tapering off. The gamma distribution for each category was truncated at the assumed upper and lower bounds of mortality reduction.   
  
