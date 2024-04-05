@@ -3,7 +3,7 @@
 ## Health Incentives: Reduction in Mortality 
 
 ##### Prepared by: Apex Consultants<br><br> Tobby McCann, Grace Lam, Nathan Tang, Magdalene Che and Samuel Lam <br>
-<font size="2" style="italic"> For all R code please click the 'Code and Calculations' Image </font> [<img src= "Screenshot 2024-04-05 140531.png" alt = "image" align = "right">](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-apex-consulting/tree/main/ACTL4001%20Files) 
+<font size="2" style="italic"> For all R code please click the 'Code and Calculations' Image </font> [<img src= "Screenshot 2024-04-05 140531.png" alt = "image" align = "right">](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-apex-consulting/tree/main/ACTL4001%20Files) <br>
 
 ---
 
