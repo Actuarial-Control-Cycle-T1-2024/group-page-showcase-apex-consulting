@@ -1,10 +1,9 @@
 # Apex Consulting <img src = "Screenshot 2024-04-05 144120.png" alt = "image" width="100" height= "100" align = "right"> 
 
-# Health Incentives: Reduction in Mortality [<img src= "Screenshot 2024-04-05 140531.png" alt = "image" align = "right">](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-apex-consulting/tree/main/ACTL4001%20Files) 
+## Health Incentives: Reduction in Mortality [<img src= "Screenshot 2024-04-05 140531.png" alt = "image" align = "right">](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-apex-consulting/tree/main/ACTL4001%20Files) 
 
-##### Prepared by: Apex Consultants<br><br> Grace Lam, Nathan Tang, Magdalene Che, Samuel Lam and Tobby McCann
-
-<font size="1"> *For all R code please click the 'Code and Calculations'* Image </font>
+##### Prepared by: Apex Consultants<br><br> Grace Lam, Nathan Tang, Magdalene Che, Samuel Lam and Tobby McCann <br>
+<font size="2"> *For all R code please click the 'Code and Calculations'* Image </font>
 ---
 
 ### Table of Contents
