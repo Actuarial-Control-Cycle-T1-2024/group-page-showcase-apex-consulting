@@ -3,7 +3,8 @@
 ## Health Incentives: Reduction in Mortality 
 
 ##### Prepared by: Apex Consultants<br><br> Tobby McCann, Grace Lam, Nathan Tang, Magdalene Che and Samuel Lam <br>
-<font size="2"> *For all R code please click the 'Code and Calculations' Image* </font> [<img src= "Screenshot 2024-04-05 140531.png" alt = "image" align = "right">](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-apex-consulting/tree/main/ACTL4001%20Files) 
+<font size="2" style="italic"> For all R code please click the 'Code and Calculations' Image </font> [<img src= "Screenshot 2024-04-05 140531.png" alt = "image" align = "right">](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-apex-consulting/tree/main/ACTL4001%20Files) 
+
 ---
 
 ### Table of Contents
@@ -22,8 +23,8 @@
     + [Methodology](#Methodology) 
     + [Results](#Results)  
 4.	[Assumptions](#Assumptions)  
-5.	[Risk Mitigation & Other Considerations](#Risk_Mitigation_&_Other_Considerations)  
-    + [Risk Assessment & Mitigation](#Risk_Assessment_&_Mitigation)  
+5.	[Risk Mitigation & Other Considerations](#Risk)  
+    + [Risk Assessment & Mitigation](#Risk_Assessment)  
     + [Sensitivity Analysis](#Sensitivity_Analysis)  
 6.	[Data & Limitations](#Data_&_Limitations)
 7.	[Final Recommendations](#Final_Recommendations)
@@ -185,8 +186,8 @@ The Lumaria life tables were assumed to be an accurate source for projecting fut
 #### 4.3) Intervention Assumptions <a id="Intervention Assumptions"></a>
 The intervention uptake rates were assumed to reflect similar programs in real life based on the British Healthiest Workplace 2019 Survey. However, cultural, and environmental differences are unknown and could affect the uptake rates drastically. Thus, a more conservative estimation was used where, the incentive of points was not considered to increment the uptake rate despite, evidence that incentives significantly increase uptake rates.  
 
-## 5) Risk and Risk Mitigation Considerations  <a id="Risk_and_Risk_Mitigation_Considerations"></a>
-#### 5.1) Risk Assessment <a id="Risk Assessment"></a>
+## 5) Risk and Risk Mitigation Considerations  <a id="Risk"></a>
+#### 5.1) Risk Assessment <a id="Risk_Assessment"></a>
 The most significant risks are displayed in the risk matrix in Figure 7. A description of each risk is as follows:  
 1. Data security breach:  given that the app is collecting highly sensitive information, a data breach could result in financial losses  through fines and lawsuits, as well as reputational damage.
 2. System failure: technical glitches or a confusing user interface could frustrate policyholders and even deter them from engaging.
