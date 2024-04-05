@@ -4,7 +4,7 @@
 
 ##### Prepared by: Apex Consultants<br><br> Grace Lam, Nathan Tang, Magdalene Che, Samuel Lam and Tobby McCann
 
-<font size="1"> For all R code please click the 'Code and Calculations' Image</font>
+<font size="1"> *For all R code please click the 'Code and Calculations'* Image </font>
 ---
 
 ### Table of Contents
