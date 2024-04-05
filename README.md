@@ -16,7 +16,7 @@
     + [Gamified Health Points System](#Gamified_Health_Points_System) 
     + [Justification](#Justification) 
     + [Expected Program Uptake](#Expected_Program_Uptake)
-    + [Impact of Health Incentives](#Impact_of_Health_Incentives)  
+    + [Impact of Health Incentives](#Impact_of_health_initiatives)  
     + [Implementation Timeline](#Implementation_Timeline) 
     + [Monitoring Outcomes](#Monitoring_Outcomes)  
 3.	[Pricing and Costs](#Pricing_and_Costs)  
@@ -104,7 +104,7 @@ Given the complexity of the App, Apex Consultants proposes a phased pilot implem
   
 In the initial ‘Pilot group implementation’, SuperLife should offer the App to policyholders who are categorised as ‘moderate risk’ since this cohort disproportionately accounts for 40.9% of death claims, despite only accounting for 23.8% of in-force policies. Further investigation also reveals that this cohort has a slight skew towards younger age groups where digital adoption capabilities are typically stronger.  
 
-#### 2.6) Monitoring Outcomes <a id="Implementation_Timeline"></a>
+#### 2.6) Monitoring Outcomes <a id="Monitoring_Outcomes"></a>
 SuperLife should monitor outcomes, through the following metrics:  
   - In the __short-term (<2 years)__, SuperLife should assess metrics such as App adoption and utilisation rates. During the first few years of implementation, SuperLife should focus on ensuring the logistical and operational efficiency of the App by monitoring outcomes to validate assumptions and respond to any implementation challenges.  
   - In the __medium term (5-10 years)__, SuperLife should focus on measuring improvements in key health indicators, including a reduction in chronic disease prevalence (particularly respiratory illnesses and cancers). This timeframe is informed by longitudinal studies which have concluded that individuals should maintain a healthier lifestyle over a minimum of 6 years to experience a significant reduction in chronic diseases such as cardiovascular disease (Ding, 2021).  
