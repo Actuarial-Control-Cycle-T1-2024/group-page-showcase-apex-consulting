@@ -57,6 +57,8 @@ The effectiveness of the Program should be assessed through the different metric
 #### 2.1) Gamified Health Points System <a id="Gamified_Health_Points_System"></a>
 Apex Consultants recommends the adoption of a Gamified Health Challenge app (“App”) to incentivise healthier lifestyles. Through the App, policyholders can earn virtual ‘Health Points’ by engaging in health-promoting activities in the following categories: Physical Health, Mindfulness & Emotional Wellbeing, Lifestyle & Community, and Prevention. A comprehensive list of specific health initiatives within each category is shown in Appendix A.2. These Health Points allow policyholders to compete against each other and can also be used to unlock various rewards, with a higher point accumulation leading to better rewards (see Appendix A.6 and A.7 for more details on Health Points system and rewards respectively).  
 
+<img src= "Picture1.png" alt = "image" align = "middle">
+
 The above figrues depicts a prototype of the App which allows policyholders to monitor their healthpromoting behaviours and track their accumulation of Health Points. Through the App, SuperLife can also continually update their data about each policyholder’s underwriting risk through real-time data collection.  
  
 To incentivise specific behaviours by different age cohorts, Health Points allocations should be adjusted depending on the age cohort. For instance, Safety Campaigns, which are designed to educate policyholders on safety measures at home and in daily activities, are likely to be more effective for retired policyholders (aged >65 years old) who often spend more time at home. As such, this age cohort will be awarded more points for engaging in Safety Campaigns compared to a younger policyholder. In this way, SuperLife can maximise the cost effectiveness of each health incentive by ensuring that it is aligned to the unique needs of each age cohort. 
@@ -101,7 +103,9 @@ The impact of the interventions was simulated using a compound Poisson distribut
  
 #### 2.5) Implementation Timeline  <a id="Implementation_Timeline"></a>
 Given the complexity of the App, Apex Consultants proposes a phased pilot implementation approach (outlined in Figure 2). During the initial phase (up to 6 months), SuperLife should offer the App to a pilot group of policyholders, with only subset of all possible health initiatives. After testing and refining the App with the pilot group, SuperLife should gradually increase the number of policyholders who can download the app, before expanding the number of health initiatives available to policyholders. 
-  
+
+<img src= "Picture2.png" alt = "image" align = "middle">
+
 In the initial ‘Pilot group implementation’, SuperLife should offer the App to policyholders who are categorised as ‘moderate risk’ since this cohort disproportionately accounts for 40.9% of death claims, despite only accounting for 23.8% of in-force policies. Further investigation also reveals that this cohort has a slight skew towards younger age groups where digital adoption capabilities are typically stronger.  
 
 #### 2.6) Monitoring Outcomes <a id="Monitoring_Outcomes"></a>
@@ -117,11 +121,14 @@ Mortality savings was calculated by projecting revised mortality rates for each 
 #### 3.1.1) Mortality Projection  
 To model historical mortality rates, the in-force policyholder dataset was fitted with the semiparametric Cox Proportional Hazards model, which assumes a baseline mortality curve adjusted that is proportionally based on covariate values. The hazard rate is as follows:  
 
-ℎ(𝑡) = ℎ0(𝑡) × exp ( 𝑥𝑖𝛽𝑖) 
+<img src= "Picture3.png" alt = "image" align = "middle">
+
 Covariate selection was done by fitting models on a range of covariates and conducting statistical tests. Some covariates excluded due to insufficient data. The ‘sex’ and ‘smoking status’ of policyholders were the chosen covariates, with 𝛽 = 1.25 and 𝛽 = 8.72 respectively. Both the individual covariates are considered statistically significant; the fitted Cox model passes the likelihood ratio, Wald and log-rank tests (see Appendix C.1.1 for further details). 
  
 #### 3.1.2) Modelling Reduction in Mortality 
 The impact of each intervention category was modelled using a compound Poisson model. The severity component of the compound Poisson model captures the expected reduction in mortality, while the frequency component captures the expected level of uptake (i.e. expected number of proportion to participate after applying a 50% uplift from incentives pertaining to increased participation in multiple activities per intervention categories).  
+
+<img src= "Picture4.png" alt = "image" align = "middle">
 
 A gamma distribution was used to stochastically model the reduction in mortality for each category of intervention. The gamma distribution was selected due to its usefulness in modelling proportions, as well as its right-tailed nature to capture the fact that interventions are likely to highly effective up to a certain extent, before tapering off. The gamma distribution for each category was truncated at the assumed upper and lower bounds of mortality reduction.   
  
@@ -129,7 +136,9 @@ A gamma distribution was used to stochastically model the reduction in mortality
 The expected uptake of the activities was modelled using a Poisson distribution, where 𝜆 represents the expected uptake per year adjusted by the expected frequency of participation. Using results reported in the British Healthiest Workplace 2019 Survey, a study seeking to understand the participation in different health initiatives, formed the basis of uptake assumptions. Since uptake figures were reported at an aggregate level in the report, an adjustment per age cohort was applied to stratify the uptake by age cohorts. For instance, policyholders aged 25-34 are assumed to be more likely to participate in Physical Wellbeing initiatives, whereas policyholders >65 are assumed to be more likely to participate in Preventive initiatives. The level of uptake was further adjusted by the expected frequency per year such that the expected time between each activity, (assuming 𝑇~𝐸𝑥𝑝(𝜆)), would be reasonable, based on the rewards system and scope of activities. This level of uptake was taken to be the value of 𝜆 in the Poisson model. 
  
 An example of a simulated mortality reduction is given in Figure 3 which depicts the simulated number of policyholders at a different levels of mortality reduction.   
- 	 
+
+<img src= "Picture5.png" alt = "image" align = "middle">
+
 #### 3.1.4) Individual Policyholder Projection 
 Apex Consultants has used a stochastic approach to simulate the characteristics of each individual policyholder at the end of each period. The characteristics of each policyholder are defined using an 8-dimensional matrix consisting of the following information:  
 •	Issue year (fixed over time for each policyholder) 
@@ -167,8 +176,16 @@ Mortality savings was calculated by determining the expected value of savings ar
 #### 3.2.1) Reduction in Number of Deaths 
 Figure 4 compares the  	baseline number of deaths (using baseline mortality assumptions)  	with the revised number of deaths (assuming that the App had been implemented over the last 20 years 	). There is a widening gap between historical and adjusted number of deaths over time, as the  initiative becomes increasingly effective given that the  impacts of mortality reduction are cumulative 	 and more policies in force. On average, there is a reduction in 156 deaths per year, amounting to a decrease of approximately 3000 deaths over the 20-year period.  
 
+<img src= "Picture5.png" alt = "image" align = "middle">
+
 #### 3.2.2) Historical Mortality Savings and Projected Economic Value 
-Figure 5 pertains to the historical mortality savings under the steady-state smoothed mortality assumption. There is a clear reduction in the claim’s costs, with an average saving of $65m per annum, and nominally 1.3b impact over the last 20 years. The initiative is also projected to be effective over the next 20 years, as represented in Figure 6 which depicts the mean projected profit (using adjusted mortality assumptions) being approximately 5-8% higher than the baseline projected profit. Figure 6 illustrates that lower percentiles of projected profitability exhibit comparatively reduced volatility. Specifically, the gap in profit between the 5th and 25th percentiles is narrower than that between the 75th and 95th percentiles. Further, this approach includes variable app cost assumptions (refer Appendix A.8), assuming the additional profits from the intervention are shared as 50% to incentivise policyholders (Č30M - Č 50M as game rewards). 
+The image below pertains to the historical mortality savings under the steady-state smoothed mortality assumption. There is a clear reduction in the claim’s costs, with an average saving of $65m per annum, and nominally 1.3b impact over the last 20 years.
+
+<img src= "Picture6.png" alt = "image" align = "middle">
+
+The initiative is also projected to be effective over the next 20 years, as represented in diagram below which depicts the mean projected profit (using adjusted mortality assumptions) being approximately 5-8% higher than the baseline projected profit. This diagram illustrates that lower percentiles of projected profitability exhibit comparatively reduced volatility. Specifically, the gap in profit between the 5th and 25th percentiles is narrower than that between the 75th and 95th percentiles. Further, this approach includes variable app cost assumptions (refer Appendix A.8), assuming the additional profits from the intervention are shared as 50% to incentivise policyholders (Č30M - Č 50M as game rewards). 
+
+<img src= "Picture7.png" alt = "image" align = "middle">
  
 #### 3.3) Potential Pricing Changes 
 It is difficult to assess how pricing changes will affect the competitiveness of SuperLife’s product in Lumaria given the lack of data regarding competitors. SuperLife should maintain the current pricing structure and consider offering discounts in the longer term if mortality rates reduce sufficiently. This analysis assumed a steady state of intervention utilisation, however, we expect this to vary over duration of implementation, as SuperLife develops a network economy. Specifically, as noted in section 2.1.3, we note that the initiative will deliver high initial costs, to develop the app infrastructure and market accordingly. We recommend SuperLife to continue with a more conservative pricing view in the medium to short term, using equity and reserves for research and development. However, we recommend SuperLife to monitor mortality trends, uptake levels and broader industry trends to assume a competitive position. Further, internally we recommend SuperLife to continue monitoring to appropriate offer discounts where relevant, with the initiative a flexible alternative to pure reversionary bonuses.                                                                                      
@@ -188,7 +205,7 @@ The intervention uptake rates were assumed to reflect similar programs in real l
 
 ## 5) Risk and Risk Mitigation Considerations  <a id="Risk"></a>
 #### 5.1) Risk Assessment <a id="Risk_Assessment"></a>
-The most significant risks are displayed in the risk matrix in Figure 7. A description of each risk is as follows:  
+The most significant risks are displayed in the risk matrix below. A description of each risk is as follows:  
 1. Data security breach:  given that the app is collecting highly sensitive information, a data breach could result in financial losses  through fines and lawsuits, as well as reputational damage.
 2. System failure: technical glitches or a confusing user interface could frustrate policyholders and even deter them from engaging.
 3. Model risk: Incorrect assumptions, parameters, or data inputs may overestimate the reduction in mortality, resulting in  
@@ -196,6 +213,8 @@ unsustainable reward structures.
 4. Adverse changes in economic assumptions: consistently high inflation rates may inflate the cost of the program beyond initial expectations, while persistently low investment rates may dampen the return on mortality savings.
 5. Trend risk: unforeseen changes in future health trends, such as new diseases, may affect SuperLife’s ability to effectively create health initiatives that target or prevent these diseases.
 6. Regulatory change: unforeseen shifts in regulatory requirements, such as prohibiting the collection of personal health-related data, could disrupt the operations of the App.  
+
+<img src= "Picture8.png" alt = "image" align = "middle">
 
 #### 5.2) Mitigation Strategies <a id="Mitigation_Strategies"></a>
 
