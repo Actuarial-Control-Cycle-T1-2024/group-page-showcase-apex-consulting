@@ -1,4 +1,4 @@
-# Apex Consulting <img src = "Screenshot 2024-04-05 144120.png" alt = "image" width="100" height= "100" align = "right"> 
+# Apex Consulting: Superlife HEalth Interventions <img src = "Screenshot 2024-04-05 144120.png" alt = "image" width="100" height= "100" align = "right"> 
 
 ## Health Incentives: Reduction in Mortality [<img src= "Screenshot 2024-04-05 140531.png" alt = "image" align = "right">](https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-apex-consulting/tree/main/ACTL4001%20Files) 
 
@@ -7,9 +7,9 @@
 ---
 
 ### Table of Contents
-1. Overview
-    + Executive Summary
-    + Program Objectives
+1. [Overview](#Overview)
+    + [Executive Summary](#Executive Summary)
+    + [Program Objectives](#Program Objectives)
     + Program Metrics 
 2. Program Design  
     + Gamified Health Points System 
@@ -31,7 +31,19 @@
 10.	Appendix 
 
 
-### Congrats on completing the [2024 SOA Research Challenge](https://www.soa.org/research/opportunities/2024-student-research-case-study-challenge/)!
+## 1) Overview {#Overview}
+
+#### 1.1) Executive Summary {#Executive Summary}
+
+A major Lumarian life insurer, SuperLife, has engaged Apex Consultants to develop a health incentive program that can be bundled with SuperLife’s longer-term life insurance offerings. In addition to promoting the overall health and wellbeing of its policyholders, SuperLife is also seeking to improve the profitability of its products through a reduction in expected mortality and improved product marketability. In light of these considerations, Apex Consultants proposes a Gamified Health Challenge app (“App”) which can be paired with SuperLife’s 20year term life insurance product. Through the App, policyholders are incentivised to increase and track their physical activity levels through the accumulation of ‘Health Points’ upon engaging with different health-promoting behaviours. In evaluating the merits of this proposal, this report leverages the Actuarial Control Cycle as a framework through which to iteratively design, test and monitor the effectiveness of the proposed App. As such, this report discusses the program design, modelling assumptions and outputs, and key metrics for future monitoring.  
+
+#### 1.2) Program Objectives {#Program Objectives}
+While this report focuses on pairing the App with the 20-year term insurance product, it is designed to be scalable for potential expansion to include pairing with the Single Premium Whole Life product once it has proven effective in the following facets: satisfactory reduction in mortality, sufficient return on investment, and meeting additional objectives as defined in Section 1.3 below.      
+
+#### 1.3) Program 
+
+
+
 
 >Now it's time to build your own website to showcase your work.  
 >To create a website on GitHub Pages to showcase your work is very easy.
