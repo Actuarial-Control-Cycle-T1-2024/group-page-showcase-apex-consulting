@@ -1,0 +1,16 @@
+﻿Estimating Participation Rates (Lambda) for Compound Poisson Model,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,Base Participation Rates,,,Relative Uptake Assumption,,,,,,,Frequency Assumption In Poisson (Collective Risk Model),,,
+,,,,,,,,,,,,,,
+,Category,Base,,18-34,35-49,50-64,65+,,,Category,18-34,35-49,50-64,65+
+,Health Maintenance and Prevention,42%,,0.5,1,1.5,2,,,Health Maintenance and Prevention,23%,46%,68%,91%
+,Lifestyle & Community,39%,,0.5,1.5,2,2,,,Lifestyle & Community,16%,49%,65%,65%
+,Mental and Emotional Wellbeing,39%,,1.5,2,1,1,,,Mental and Emotional Wellbeing,37%,50%,25%,25%
+,Physical Health and Wellness,46.50%,,2.5,2,1,0.5,,,Physical Health and Wellness,59%,47%,24%,12%
+,Smoking Cessation,6.40%,,2,1.5,1,0.5,,,Smoking Cessation,8%,6%,4%,2%
+,,,,,,,,,,,,,,
+,,Proportion of Employees in Study,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,Bracket,18-34,35-49,50-64,65+,,,,,,,,,
+,Proportion,40.54%,37%,21.38%,1%,,,,,,> Set participation rate to lambda ,,,
+,,,,,,,,,,,> Collective Risk Model vs. Individual Risk Model (General Insurance),,,
