@@ -1,0 +1,51 @@
+﻿ID, Intervention                  ,Lower_Bound_Mort_Reduction,Upper_Bound_Mort_Reduction,Lower_Bound_Cost_Estimate,Upper_Bound_Cost_Estimate,Per Unit, Description                                                                                        
+1, Wellness Programs                   ,2%,5%,90,345,year," Programs focusing on physical fitness, nutrition, and stress management.                           "
+2, Fitness Tracking Incentives         ,3%,6%,35,175,tracker, Provide rewards for policyholders using fitness trackers to monitor and improve physical activity.  
+3, Smoking Cessation Programs          ,0%,50%,870,3485,participant, Resources and support for policyholders looking to quit smoking.                                    
+4, Annual Health Check-ups             ,5%,10%,175,870,check-up, Encourage regular health check-ups with discounts for compliance.                                   
+5, Telemedicine Services               ,3%,5%,50,175,consultation, Provide access to virtual healthcare services for convenience and timely medical advice.           
+6, Healthy Eating Campaigns            ,2%,4%,10,35,participant, Promote healthy eating habits through educational campaigns and incentives.                        
+7, Weight Management Programs          ,5%,10%,175,870,program, Support weight loss and maintenance through diet and exercise programs.                             
+8, Mental Health Support               ,3%,8%,90,345,counseling session, Provide access to mental health resources and counseling services.                                 
+9, Financial Planning Assistance        ,2%,4%,90,345,session, Help policyholders with financial planning to reduce stress related to economic concerns.         
+10, Educational Workshops               ,2%,4%,20,85,workshop," Conduct workshops on healthy living, disease prevention, and general well-being.                    "
+11, Incentives for Vaccinations         ,2%,8%,20,85,incentive, Encourage policyholders to stay up-to-date with vaccinations by offering incentives.               
+12, Regular Dental Check-ups            ,2%,4%,90,345,check-up, Stress the importance of oral health and offer discounts for regular dental check-ups.             
+13, Vision Care Programs                ,2%,3%,90,345,participant, Promote eye health and provide discounts for vision screenings and eyeglasses.                    
+14, Safety Campaigns                    ,3%,5%,10,35,participant, Educate policyholders on safety measures at home and in daily activities.                           
+15, Driving Safety Courses               ,2%,4%,85,175,course, Offer discounts for policyholders who complete defensive driving courses.                           
+16, Heart Health Screenings              ,5%,10%,90,345,screening, Encourage regular screenings for cholesterol levels and blood pressure.                             
+17, Chronic Disease Management          ,5%,10%,175,870,program, Provide support and resources for policyholders managing chronic conditions.                       
+18, Sleep Hygiene Programs               ,3%,5%,20,85,program, Educate on the importance of good sleep hygiene for overall health.                                 
+19, Community Fitness Challenges         ,2%,5%,10,35,participant, Organize community-based fitness challenges with rewards for participation.                        
+20, Discounted Gym Memberships           ,3%,6%,175,870,membership, Partner with fitness centers to offer discounted memberships to policyholders.                      
+21, Online Health Resources             ,2%,4%,10,35,participant, Provide access to online health resources for information and support.                               
+22, Personalized Health Plans            ,3%,6%,90,345,plan, Offer personalized health plans based on individual risk factors and goals.                         
+23, Well-being Apps                      ,2%,4%,10,35,app, Recommend and support the use of apps focused on mental and physical well-being.                    
+24, Hydration Campaigns                  ,2%,3%,10,35,campaign, Promote the importance of staying hydrated for overall health.                                       
+25, Sun Safety Awareness                 ,2%,4%,10,35,campaign, Educate on sun safety to prevent skin cancer and other related conditions.                          
+26, Emergency Preparedness Training      ,2%,4%,20,85,trainining session, Provide resources and training for emergency preparedness.                                          
+27, Social Connection Initiatives        ,3%,5%,10,35,social event, Encourage social activities to foster a sense of community and reduce isolation.                    
+28, Holistic Stress Reduction            ,3%,8%,20,85,session," Promote holistic approaches to stress reduction, such as yoga and meditation.                        "
+29, Financial Incentives for Healthy Behavior ,2%,5%,20,85,incentive, Offer premium discounts or cash rewards for maintaining healthy behaviors.                         
+30, Genetic Testing                      ,2%,4%,90,345,test, Provide information on genetic testing for hereditary health risks.                                   
+31, Alcohol Moderation Programs          ,3%,6%,90,345,program, Offer resources and support for policyholders looking to moderate alcohol consumption.             
+32, Environmental Wellness               ,2%,4%,10,35,campaign, Promote awareness of environmental factors affecting health and well-being.                          
+33, Employee Assistance Programs         ,3%,5%,90,345,counseling session, Extend support services to family members of policyholders through workplace programs.              
+34, Holistic Nutrition Education         ,2%,4%,20,85,session, Provide education on the benefits of a balanced and holistic approach to nutrition.                  
+35, Incentives for Preventive Screenings  ,5%,10%,20,85,incentive, Offer rewards for policyholders who undergo preventive health screenings.                           
+36, Holistic Health Assessments          ,3%,6%,90,345,assessment," Conduct holistic health assessments to address physical, mental, and emotional well-being.          "
+37, Cancer Prevention Initiatives        ,5%,10%,20,85,initiative, Provide resources and information on cancer prevention strategies.                                   
+38, Community Gardens                    ,2%,4%,10,35,garden, Support community gardens to promote access to fresh and healthy foods.                              
+39, Active Aging Programs                 ,3%,6%,20,85,program, Encourage activities that promote active aging for elderly policyholders.                            
+40, Home Safety Inspections               ,3%,5%,20,85,inspection, Offer resources for home safety inspections to prevent accidents.                                   
+41, Mindfulness Programs                  ,3%,8%,20,85,session, Introduce mindfulness and stress reduction programs.                                                
+42, Parenting Support Services            ,2%,4%,10,35,session, Provide resources and support for parents to promote family well-being.                              
+43, Travel Safety Tips                    ,2%,4%,10,35,campaign, Educate policyholders on travel safety to reduce risks during trips.                                  
+44, Financial Literacy Workshops          ,2%,4%,20,85,workshop, Conduct workshops on financial literacy to reduce stress related to money management.               
+45, Hiking and Outdoor Activities Groups ,3%,6%,20,85,group, Facilitate outdoor activities groups to promote physical activity.                                   
+46, Cognitive Health Programs             ,3%,6%,20,85,program, Offer resources and activities to support cognitive health.                                          
+47,Art and Creativity Classes ,2%,4%,10,35,class,Promote engagement in artistic and creative pursuits for mental well-being.
+48,Mind-Body Wellness Retreats,3%,6%,90,345,retreat,Organize wellness retreats focusing on mind-body balance.
+49,Incentives for Regular Medication Adherence,2%,5%,20,85,incentive,Offer rewards for policyholders who consistently adhere to prescribed medications.
+50,Ergonomic Workstation Assessments,2%,4%,20,85,assessment,Conduct ergonomic workstation assessments to address workplace ergonomics.
